@@ -14,6 +14,7 @@ const stages = [
 
 
 import StartScreen from "./components/StartScreen";
+import GameOver from './components/GameOver';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <StartScreen />
+      <GameOver />
     </div>
   );
 }
